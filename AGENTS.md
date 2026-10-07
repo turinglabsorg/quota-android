@@ -17,7 +17,7 @@ Android app (Kotlin, Jetpack Compose) and Home screen widget (Jetpack Glance) th
 - Use JDK 17: `export JAVA_HOME=$(/usr/libexec/java_home -v 17)`. `local.properties` (not committed) points to the Android SDK.
 - Tests: `./gradlew testDebugUnitTest`. Build: `./gradlew assembleDebug`.
 - Emulator: `$ANDROID_HOME/emulator/emulator -avd <avd>`, then `adb install -r app/build/outputs/apk/debug/app-debug.apk`.
-- Screenshots: start the app with `--ez sample true` so the app and the widget show sample accounts, never real ones: `adb shell am start -n com.turinglabs.quota/.ui.MainActivity --ez sample true`, then `adb exec-out screencap -p > file.png`.
+- Screenshots: start the app with `--ez sample true` so the app and the widget show sample accounts, never real ones: `adb shell am start -n com.turinglabs.quota/.ui.MainActivity --ez sample true`, then `adb exec-out screencap -p > file.png`. After `adb install -r` the widget shows Glance's loading spinner until the next refresh, and `MainActivity` refreshes only when the sample flag changes: run `am start -S` once with `--ez sample false`, then with `--ez sample true`.
 
 ## Server API (version 1)
 
