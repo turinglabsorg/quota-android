@@ -22,4 +22,5 @@ The Android surfaces follow the macOS design system (`DESIGN.md` in the quota re
 - Bars follow the Mac menu bar (`AccountUsage.barWindows`): when an account reports a 5-hour session and a weekly (or monthly) window, it gets two stacked bars, session above, each with its own value and level color; otherwise one bar for the window closest to its limit.
 - **Small** (2 × 2 cells and up): up to four rows of glyph (12 dp), short name (12 sp medium, 44 dp column), then the stacked 4 dp bars each followed by its value (11 sp bold).
 - **Medium** (from 250 dp wide): 2 × 2 tiles: glyph + short name + `↻` countdown of the window closest to its limit (10 sp), then the stacked bars with 13 sp values.
+- Rows (or tile rows) are spread evenly over the widget height, each followed by an equal-weight spacer, so free space never collects above "Updated".
 - "Updated …" in 10 sp at the bottom, orange when older than 30 minutes. States: "Open Quota to pair", "Can't reach the Quota server."

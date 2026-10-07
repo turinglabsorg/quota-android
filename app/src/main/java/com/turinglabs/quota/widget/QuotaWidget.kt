@@ -120,6 +120,7 @@ class QuotaWidget : GlanceAppWidget() {
             val headline = account.headline(now) ?: return@mapNotNull null
             Line(account, account.barWindows(now).map { Bar(it, it.remainingPercent(now)) }, headline)
         }.take(4)
+        // The padding keeps a minimum gap; equal-weight spacers spread the remaining height over the rows.
         if (LocalSize.current.width >= MEDIUM.width) {
             lines.chunked(2).forEach { pair ->
                 Row(modifier = GlanceModifier.fillMaxWidth().padding(bottom = 10.dp)) {
@@ -129,6 +130,7 @@ class QuotaWidget : GlanceAppWidget() {
                     }
                     if (pair.size == 1) Spacer(GlanceModifier.defaultWeight())
                 }
+                Spacer(GlanceModifier.defaultWeight())
             }
         } else {
             lines.forEach { line ->
@@ -143,9 +145,9 @@ class QuotaWidget : GlanceAppWidget() {
                         }
                     }
                 }
+                Spacer(GlanceModifier.defaultWeight())
             }
         }
-        Spacer(GlanceModifier.defaultWeight())
         Updated(payload, now)
     }
 
