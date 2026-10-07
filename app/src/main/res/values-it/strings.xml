@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Quanto ti resta dei limiti di Claude, Codex, Grok e Ollama Cloud.</string>
+
+    <string name="window_session">Sessione 5 ore</string>
+    <string name="window_weekly">Settimana</string>
+    <string name="window_weekly_model">Settimana · %1$s</string>
+    <string name="window_monthly">Mese</string>
+    <string name="window_custom">Finestra %1$s</string>
+    <string name="duration_days">%1$d g</string>
+
+    <string name="now">ora</string>
+    <string name="countdown_days_hours">%1$dg %2$dh</string>
+    <string name="countdown_days">%1$dg</string>
+    <string name="minutes_ago">%1$d min fa</string>
+    <string name="hours_ago">%1$d h fa</string>
+    <string name="resets_in">Reset tra %1$s</string>
+    <string name="reset_updating">Azzerato, in aggiornamento</string>
+    <string name="updated">Aggiornato %1$s</string>
+    <string name="waiting_for_data">In attesa dei dati…</string>
+    <string name="loading">Caricamento…</string>
+
+    <string name="left">rimasto</string>
+    <string name="used">usato</string>
+    <string name="percentage_left">Percentuale rimasta</string>
+    <string name="percentage_used">Percentuale usata</string>
+    <string name="show">Mostra</string>
+    <string name="settings">Impostazioni</string>
+    <string name="refresh">Aggiorna ora</string>
+    <string name="add_widget">Aggiungi il widget alla schermata Home</string>
+    <string name="unpair">Scollega questo dispositivo</string>
+    <string name="done">Fine</string>
+
+    <string name="pairing_intro">Quota mostra l\'utilizzo che quota-server legge sul tuo Mac. Su quel Mac esegui quota-server pair e inserisci qui il codice.</string>
+    <string name="server">Server</string>
+    <string name="pairing_code">Codice di abbinamento</string>
+    <string name="pair">Abbina</string>
+    <string name="enter_server">Inserisci l\'indirizzo del tuo server Quota.</string>
+    <string name="no_accounts">Nessun account collegato sul server. Esegui quota-server link &lt;servizio&gt; sul tuo Mac.</string>
+    <string name="open_to_pair">Apri Quota per abbinare</string>
+
+    <string name="error_not_paired">Abbina questo dispositivo al tuo server Quota.</string>
+    <string name="error_invalid_code">Il codice di abbinamento non è valido.</string>
+    <string name="error_expired_code">Il codice di abbinamento è scaduto. Creane uno nuovo.</string>
+    <string name="error_unauthorized">Questo dispositivo non è più abbinato. Abbinalo di nuovo.</string>
+    <string name="error_server">Errore del server (HTTP %1$d).</string>
+    <string name="error_network">Impossibile raggiungere il server Quota.</string>
+    <string name="error_invalid_response">Risposta non riconosciuta.</string>
+    <string name="error_keystore">Impossibile salvare l\'abbinamento su questo dispositivo.</string>
+</resources>

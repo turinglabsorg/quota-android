@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mirrors ProviderGlyph.swift in the quota repository (15% stroke, round caps and joins). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <path
+        android:pathData="M10.88,11.60 L8.96,3.92 M17.12,11.60 L19.04,3.92 M10.64,11.60 L17.36,11.60 A4.80,4.80 0 0,1 22.16,16.40 L22.16,19.76 A4.80,4.80 0 0,1 17.36,24.56 L10.64,24.56 A4.80,4.80 0 0,1 5.84,19.76 L5.84,16.40 A4.80,4.80 0 0,1 10.64,11.60 Z M11.36,17.24 L11.36,17.48 M16.64,17.24 L16.64,17.48"
+        android:strokeWidth="3.60"
+        android:strokeColor="#FF000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

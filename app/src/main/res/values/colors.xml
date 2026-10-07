@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launcher_background">#FF1D1C1A</color>
+    <color name="claude_accent">#FFD97757</color>
+    <color name="level_normal">#FF34C759</color>
+    <color name="level_warning">#FFFF9500</color>
+    <color name="level_critical">#FFFF3B30</color>
+</resources>
